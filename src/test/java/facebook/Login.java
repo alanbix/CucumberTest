@@ -78,12 +78,6 @@ public class Login
         assertEquals(Constants.ERROR_MESSAGE, message);
     }
 
-    @Then("^Re-login option should be available$")
-    public void re_login_option_should_be_available()
-    {
-
-    }
-
     private void sleep(long milliseconds)
     {
         try
